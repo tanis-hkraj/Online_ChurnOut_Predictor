@@ -26,8 +26,8 @@ def predict():
     else:
         output="would"
     return render_template("index.html",prediction_text=f"With Respect to current Circumstances the customer {output} probably CHURNOUT.")
-# if __name__=="__main__":
-#     app.run(debug=True)  
+if __name__=="__main__":
+    app.run(debug=True)  
     
 
 
